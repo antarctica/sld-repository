@@ -1,0 +1,12 @@
+---
+version: "2"
+
+services:
+  app:
+    build: .
+    image: docker-registry.data.bas.ac.uk/magic/sld-repository:latest
+    command: flask
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - FLASK_ENV=development

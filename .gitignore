@@ -1,0 +1,5 @@
+__pycache__
+.env
+.flaskenv
+APP_RELEASE.txt
+/resources/sources.json
