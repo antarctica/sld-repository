@@ -9,4 +9,4 @@ sentry-sdk[flask]==0.13.4
 setuptools==42.0.0
 str2bool==1.1
 twine==3.1.0
-wheel==0.33.6
+wheel==0.38.1
